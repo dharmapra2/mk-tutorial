@@ -1,0 +1,185 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 960px) {
+    
+  
+    #hero-img{
+      width: 350px;
+      position: relative;
+      top: -2rem;
+      left: -1rem;
+      padding: 0;
+      margin: 0;
+  }
+  #h1{
+      font-size: 2.7rem;
+      position: relative;
+      margin-top: 0;
+      margin-left: -1rem;
+      line-height: 1;
+      
+      margin-bottom: .9rem;
+  }
+  #h6{
+      /* font-size: 1rem; */
+      font-size: .9rem;
+      text-align: justify;
+      position: relative;
+      margin-top: 0;
+      margin-left: -1rem;
+      line-height: 1;
+      margin-right: 3rem;
+      margin-bottom: .7rem;
+  }
+  #p{
+      position: relative;
+      margin-left: -1rem;
+      line-height: 1.1;
+      text-align: justify;
+      margin-bottom: 2rem;
+      margin-right: 3rem;
+  }
+ #btn{
+     position: relative;
+     left: -1rem;
+     padding-top: -2rem;
+ }
+ 
+ #home{
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 70% 79%, -20% 89%);
+  padding: 2rem 1rem;
+ }
+
+ /* section{
+     padding: 2rem 0;
+ } */
+
+ /* for about section ------ */
+#about{
+   position: relative;
+   top: -4.9rem;
+}
+#all{
+  grid-template-columns: repeat(3,1fr);
+ }
+}
+
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    #hero-img{
+      width: 350px;
+      position: relative;
+      top: -2rem;
+      left: -1rem;
+      padding: 0;
+      margin: 0;
+  }
+  #h1{
+    font-size: 3.1rem;
+      position: relative;
+      margin-top: 0;
+      margin-left: -1rem;
+      line-height: 1;
+      
+      margin-bottom: .9rem;
+  }
+  #h6{
+      /* font-size: 1rem; */
+      font-size: .9rem;
+      text-align: justify;
+      position: relative;
+      margin-top: 0;
+      margin-left: -1rem;
+      line-height: 1;
+      margin-right: 3rem;
+      margin-bottom: .7rem;
+  }
+  #p{
+      position: relative;
+      margin-left: -1rem;
+      line-height: 1.1;
+      text-align: justify;
+      margin-bottom: 2rem;
+      margin-right: 3rem;
+  }
+ #btn{
+     position: relative;
+     left: -1rem;
+     padding-top: -2rem;
+ }
+ 
+ #home{
+  clip-path: polygon(0 0,100% 0,100% 96%,68% 84%,0 99%);
+  padding: 2rem 1rem;
+ }
+
+ /* section{
+     padding: 2rem 0;
+ } */
+
+ /* for about section ------ */
+#about{
+   position: relative;
+   top: -2.8rem;
+}
+}
+    
+
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  /* @media (min-width: 481px) and (max-width: 767px) {
+    
+    
+    
+  }
+   */
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  /* @media (min-width: 320px) and (max-width: 370px) {
+    
+    
+    
+  } */
+
+
+

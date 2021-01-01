@@ -1,0 +1,94 @@
+/* // Custom.scss
+// Option A: Include all of Bootstrap */
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.custom-shape-divider-top-1607230314 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1607230314 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-top-1607230314 .shape-fill {
+    fill: #FFFFFF;
+}
+.flex{
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    /* padding-right: 3rem; */
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.btn-primary{
+    background: var(--primary);
+    color: var(--secondary);
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+    
+}
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+/* .btn-secondary a{
+  color: var(--primary);
+} */
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--secondary);
+}
+.flex1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
+.topic{
+    margin-top: -5rem;
+    margin-bottom: 6rem;
+}
+.topic a{
+    display: flex;
+}
+.topic a li{
+    box-sizing: content-box;
+    padding-right: 1.8rem;
+    list-style: none;
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 200;
+    color: inherit;
+    /* -moz-text-decoration-color: aquamarine; */
+    justify-content: space-between;
+    flex-direction: column;
+}
