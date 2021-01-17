@@ -11,3 +11,10 @@
 //     });
      
 //     });
+
+function off(){
+    document.getElementById('msg').style.display='none';
+}
+function show(){
+    document.getElementById('msg').style.display='block';
+}
